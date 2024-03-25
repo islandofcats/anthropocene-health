@@ -1,8 +1,8 @@
 ---
 title: Indoors
-weight: 3
-prev: 2-outdoors
-next: 4-clean-up
+weight: 2
+prev: 1-general
+next: 3-outdoors
 ---
 
 ## Keep the windows closed!
@@ -25,7 +25,11 @@ If your home (or apartment building) has a central air circulator (such as a fur
 
 Standalone HEPA-rated air purifiers are widely available. Anything which meets this standard will make an important difference in your indoor air. Purchase only from a reputable vendor - steer clear of third-party sellers on sites like Amazon and Walmart.
 
-You can also make a Corsi-Rosenthal box: a relatively cheap (for its effectiveness) construction of furnace filters and a box fan which was popularized in the early pandemic. See below for a guide and links to further information. There are many designs with trade-offs in cost, clean air delivery rate (CADR), and space. The simplest iteration - a filter taped to the intake side of a fan - is still much better than nothing.
+You can also make a DIY air purifier, also known as a Corsi-Rosenthal box: a relatively cheap (for its effectiveness) construction of furnace filters and a box fan which was popularized in the early pandemic. See below for a guide and links to further information. There are many designs with trade-offs in cost, clean air delivery rate (CADR), and space. The simplest iteration - a filter taped to the intake side of a fan - is still much better than nothing.
+
+{{< cards >}}
+  {{< card link="../../diy-purifier" title="Build your own air purifier" image="../../diy-purifier.png" subtitle="With furnace filters and a box fan" >}}
+{{< /cards >}}
 
 ## Humidity helps
 

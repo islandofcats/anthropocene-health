@@ -1,8 +1,8 @@
 ---
 title: Outdoors
-weight: 2
-prev: 1-general
-next: 3-indoors
+weight: 3
+prev: 2-indoors
+next: 4-clean-up
 ---
 
 ## Wear a mask

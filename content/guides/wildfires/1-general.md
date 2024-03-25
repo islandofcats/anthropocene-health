@@ -2,7 +2,7 @@
 title: General tips
 weight: 1
 prev: wildfires
-next: 2-outdoors
+next: 2-indoors
 ---
 
 ## Understand the harm
