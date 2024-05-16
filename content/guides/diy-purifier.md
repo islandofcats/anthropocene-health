@@ -2,16 +2,16 @@
 title: Build your own air purifier
 ---
 
-![](diy-purifier.png "An idealized depiction of an air purifier cube built with the steps below")
+![](/images/diy-purifier.png "An idealized depiction of an air purifier cube built with the steps below")
 
 In this design, polluted air is sucked in through the filters on the sides of the cube and clean air is blown up out of the top. Blowing upward substantially increases air mixing in the room, ensuring that the room's air is cleaned faster. This particular design is often called a "Corsi-Rosenthal cube" or something similar because it was popularized by two scientists with those names in the early pandemic. It has been a staple in the DIY and woodworking scenes for a long time because of its relative cheapness and high efficacy.
 
 ## Materials
 - One box fan (20" x 20" / 50cm x 50cm is common)
-- Four ≥ MERV 13 furnace filters, close to the box fan in size
+- Four furnace filters rated MERV 13 or greater, close to the box fan in size
 - Duct tape, painters tape, or any other tape which is relatively stable and air-tight
+- Spare cardboard (if you still have it, the box fan's shipping box is a great choice)
 - Scissors
-- Spare cardboard (if you purchased the box fan new, it probably came with the perfect box)
 
 ## Construction steps
 

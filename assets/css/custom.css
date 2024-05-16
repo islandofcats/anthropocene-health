@@ -1,0 +1,30 @@
+.inline-toc > details > ul {
+    margin: 0 !important;
+}
+
+.inline-toc > details > ul > li > ul > li:not(:last-child):after {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    content: "•\00a0";
+}
+
+.inline-toc > details > ul > li > ul > li {
+    display: inline-block; margin: 0;
+}
+
+.inline-toc > details > ul > li > ul {
+    margin: 0 !important;
+}
+
+@media (max-width: 1279px) {
+    .inline-toc {
+        display: block;
+    }
+}
+
+@media (min-width: 1280px) {
+    .inline-toc {
+        display: none;
+        
+    }
+}
