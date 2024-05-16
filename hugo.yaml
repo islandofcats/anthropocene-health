@@ -25,11 +25,6 @@ menu:
       weight: 2
       params:
         type: search
-    - name: GitHub
-      weight: 3
-      url: "https://github.com/anthropocene-health/main"
-      params:
-        icon: github
 
 params:
   navbar:
@@ -41,5 +36,4 @@ params:
     displayPoweredBy: false
 
   editURL:
-    enable: true
-    base: "https://github.com/anthropocene-health/main/edit/main/content"
+    enable: false
