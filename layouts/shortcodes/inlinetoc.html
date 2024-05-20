@@ -1,9 +1,9 @@
-<nav class="hextra-toc order-last shrink-0 print:hidden px-4 inline-toc" aria-label="table of contents">
+<nav class="hextra-toc order-last shrink-0 print:hidden inline-toc" aria-label="table of contents">
 <details class="last-of-type:mb-0 bg-neutral-50 dark:bg-neutral-800 p-2 mt-4 group">
   <summary class="flex items-center cursor-pointer select-none list-none p-1 rounded transition-colors hover:bg-gray-100 dark:hover:bg-neutral-800 before:mr-1 before:inline-block before:transition-transform before:content-[''] dark:before:invert rtl:before:rotate-180 group-open:before:rotate-90">
     <strong class="text-lg">On this page</strong>
   </summary>
-  <ul class="overflow-hidden p-2">
+  <ul class="not-prose overflow-hidden p-2">
       {{- with $.Page.Fragments.Headings -}}
         {{- range . -}}
             {{- with .Headings -}}{{ template "toc-sub" (dict "headings" . "level" 0) }}{{- end -}}
@@ -32,15 +32,15 @@
         {{- if not (eq $index 0) -}}
           </ul></li>
         {{- end -}}
-        <li>
-          <strong><a class="font-semibold not-prose inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 break-words" href="#{{ anchorize .ID }}">
+        <li class="inline-toc-0">
+          <strong><a class="inline-toc-link not-prose break-words" href="#{{ anchorize .ID }}">
             {{- .Title | safeHTML | plainify | htmlUnescape }}
           </a></strong>
-          <ul>
+          <ul class="not-prose">
         {{- end -}}
       {{- if and (gt $level 0) (lt $level 2) -}}
-        <li>
-          <a class="not-prose inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 contrast-more:text-gray-900 contrast-more:underline contrast-more:dark:text-gray-50 break-words" href="#{{ anchorize .ID }}">
+        <li class="inline-toc-1">
+          <a class="inline-toc-link not-prose break-words" href="#{{ anchorize .ID }}">
             {{- .Title | safeHTML | plainify | htmlUnescape }}
           </a>
         </li>
