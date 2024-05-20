@@ -64,13 +64,13 @@ Wildfires quickly expand to consume everything in their path, including vehicles
 
 ## Indoors
 
-### Keep the windows closed!
+### Keep windows closed!
 
 The fewer particulates which enter your home, the better. While few buildings are truly air-tight, windows are deliberately effective for air exchange. This may seem obvious to some, but far too often folks fail to take this extremely important and simple precaution.
 
 If you need fresh outdoor air - for example, because CO2 is accumuluating - try your best to only allow it to come through a filter. Furnace filters can be found at many stores or ordered online. Cover any gaps left on the window and seal all of the seams with painter's tape, which can be easily removed without residue later.
 
-### Block outdoor air intrusion
+### Block outdoor air
 
 Doors and windows can be sealed off with painter's tape if they aren't in use. It is designed to come off easily after the fact, without damaging surfaces.
 
@@ -112,7 +112,7 @@ Exertion of any kind increases the amount of air your body needs to function. Th
 
 Plan for things to take longer. You may find yourself surprised by how quickly you feel out of breath, even during tasks that are usually easy for you. Take your time when walking or wheeling. Take breaks often. Try to stick to low-energy activities. Reduce your expectations - it’s okay if things feel hard to accomplish. Being inundated in smoke is a serious thing!
 
-### Keep pets safe, too
+### Keep pets safe
 
 The air is as dangerous to them as it is to you, and they can’t take any action to protect themselves. Some dog owners have had luck with dog masks, but these should be used with caution because they can stop your dog from panting - their main way of keeping cool.
 
@@ -132,9 +132,9 @@ After the smoke has passed, you should clean surfaces in your home that may be h
 
 All air filters should be inspected. If you experienced heavy soot, many or most of them will need to be replaced - soot and ash in your filter reduces its efficacy and can become dislodged later, posing a health risk all over again. This is true for air filters, HVAC filters, and even the air filters - engine *and* passenger - in your car.
 
-### Clothes, blankets, and other fabrics
+### Clothes and other fabrics
 
-Your typical laundry practices will likely be sufficient to clean clothes that only received mild indoor exposure. If they were in outdoor air, or the smoke was particularly bad, they may need additional attention. There’s many ways to tackle this:
+Your typical laundry practices will likely be sufficient to clean clothes and blankets that only received mild indoor exposure. If they were in outdoor air, or the smoke was particularly bad, they may need additional attention. There’s many ways to tackle this:
 
 - Use vinegar in place of fabric softener - use up to a half cup per laundry load, either via the fabric softener dispenser (where the machine will dilute it as it uses it) or, in top-loading washers which don’t have a dispenser, directly into the drum during the rinse cycle, when it will immediately be diluted by the rinse water. Don’t add it to the detergent drawer and don’t add it during any other cycles - mixing vinegar with detergent causes both substances to perform poorly, and undiluted vinegar in contact with your fabrics can damage them.
 
