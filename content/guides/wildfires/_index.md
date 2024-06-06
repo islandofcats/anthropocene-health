@@ -1,5 +1,12 @@
 ---
-title: Wildfires
+title: Staying safe in wildfire smoke
+
+description: Protecting yourself and others from that thing that's been happening more and more
+summary: A guide for dealing with wildfire smoke when it inundates your region, including tips for indoors, outdoors, staying informed, and cleaning up after the fact.
+
+thumbnail: "/images/smoke-season.jpeg"
+images: ["/images/smoke-season.jpeg"]
+
 cascade:
     type: docs
 ---

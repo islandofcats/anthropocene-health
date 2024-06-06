@@ -1,5 +1,12 @@
 ---
 title: Build your own air purifier
+
+description: With a box fan and some furnace filters
+summary: A guide for constructing a high-efficacy air purifier from simple materials available at most larger department stores.
+
+thumbnail: "/images/diy-purifier.png"
+images: ["/images/diy-purifier.png"]
+
 ---
 
 ![](/images/diy-purifier.png "An idealized depiction of an air purifier cube built with the steps below")

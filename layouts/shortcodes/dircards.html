@@ -1,0 +1,48 @@
+{{ $items := $.Page.Pages.ByLastmod }}
+{{ $r := string (.Get "root") }}
+
+{{ with $r }}
+    {{ $root := $.Site.GetPage $r }}
+    {{ $items = $root.Pages.ByLastmod }}
+{{ end }}
+
+{{ $items = $items.Reverse }}
+
+{{- with $items -}}
+    <div class="hextra-cards mt-4 gap-4 grid not-prose" style="--rows: 3;">
+    {{- range $items -}}
+        {{- $page := . -}}
+        {{- $link := .RelPermalink -}}
+        {{- $title := .Title -}}
+        {{- $subtitle := .Description -}}
+        {{- $image := .Param "thumbnail" -}}
+        
+        <a
+        class="hextra-card group flex flex-col justify-start overflow-hidden rounded-lg border border-gray-200 text-current no-underline dark:shadow-none hover:shadow-gray-100 dark:hover:shadow-none shadow-gray-100 active:shadow-sm active:shadow-gray-200 transition-all duration-200 hover:border-gray-300 bg-gray-100 shadow dark:border-neutral-700 dark:bg-neutral-800 dark:text-gray-50 hover:shadow-lg dark:hover:border-neutral-500 dark:hover:bg-neutral-700"
+            href="{{ $link }}"
+        >
+            <img
+            alt="{{ $title }}"
+            class="hextra-card-image"
+            loading="lazy"
+            decoding="async"
+            src="{{ $image | safeURL }}"
+            />
+        
+        {{- $padding := "p-4" -}}
+        {{- with $subtitle -}}
+            {{- $padding = "pt-4 px-4" -}}
+        {{- end -}}
+        
+        
+        <span class="hextra-card-icon flex font-semibold items-start gap-2 {{ $padding }} text-gray-700 hover:text-gray-900 dark:text-neutral-200 dark:hover:text-neutral-50">
+            {{- $title -}}
+        </span>
+        {{- with $subtitle -}}
+            <div class="hextra-card-subtitle line-clamp-3 text-sm font-normal text-gray-500 dark:text-gray-400 px-4 mb-4 mt-2">{{- $subtitle | markdownify -}}</div>
+        {{- end -}}
+        </a>
+        {{- /* Strip trailing newline. */ -}}
+    {{- end -}}
+    </div>
+{{- end -}}
