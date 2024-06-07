@@ -32,8 +32,9 @@ params:
     width: full
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: false
+    width: full
 
   editURL:
     enable: false

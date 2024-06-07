@@ -1,5 +1,6 @@
 ---
 title: Health in the Anthropocene
+linkTitle: Home
 type: docs
 ---
 

@@ -28,3 +28,7 @@
         display: none;
     }
 }
+
+:is(html[class~="dark"] img) {
+    filter: brightness(0.8) contrast(1.2);
+}
