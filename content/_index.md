@@ -2,6 +2,13 @@
 title: Health in the Anthropocene
 linkTitle: Home
 type: docs
+
+description: An attempt to gather useful information in one place for facing the health hazards of the anthropocene
+summary: An attempt to gather useful information in one place for facing the health hazards of the anthropocene
+
+thumbnail: "/images/smoke-season.jpeg"
+images: ["/images/smoke-season.jpeg"]
+
 ---
 
 {{< dircards root="guides" >}}

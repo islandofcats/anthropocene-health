@@ -1,6 +1,8 @@
 ---
 title: About
 type: docs
+
+description: About Anthropocene Health.
 ---
 
 ## Goal
